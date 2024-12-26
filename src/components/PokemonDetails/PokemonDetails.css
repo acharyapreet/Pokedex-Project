@@ -1,0 +1,30 @@
+.pokemon-details-image{
+    width: 200px;
+    height: auto;
+    /* left: 100px; */
+}
+.pokemon-details-wrapper{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.pokemon-details-name > span {
+    letter-spacing: 0.5rem;
+    font-size: larger;
+}
+.pokemon-details-name{
+    margin-top: 1rem;
+}
+.pokemon-types{
+    display: flex;
+    gap: 3rem;
+    margin-top: 2rem;
+    font-size: smaller;
+}
+.pokemon-types div{
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: gainsboro;
+}
