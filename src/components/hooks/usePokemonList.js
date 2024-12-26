@@ -31,6 +31,7 @@ function usePokemonList(){
         {/**map over the pokemonData and return the id, name, image and types of*/}
         const pokeListResult = pokemonData.map((pokeData)=>{
             const pokemon = pokeData.data;
+            {/*return the id, name, image and types of each pokemon */}
             return {
                    id : pokemon.id,
 
